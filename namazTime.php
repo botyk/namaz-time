@@ -7,6 +7,8 @@ https://namaz.muftyat.kz/kk/namaz/api/
 
 -----------------------------------------
 
+require 'namazTime.php';
+
 $lat = '43.238293'; // Широта
 $lon = '76.945465'; // Долгота
 
