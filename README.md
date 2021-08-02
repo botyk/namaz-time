@@ -1,6 +1,8 @@
 ## Время намаза (muftyat.kz) (API)
 
 ```php
+require 'namazTime.php';
+
 $lat = '43.238293'; // Широта
 $lon = '76.945465'; // Долгота
 
