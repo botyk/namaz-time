@@ -5,6 +5,9 @@
 Время намаза (muftyat.kz)
 https://namaz.muftyat.kz/kk/namaz/api/
 
+Автор
+https://batas.kz/
+
 -----------------------------------------
 
 require 'namazTime.php';
