@@ -7,11 +7,11 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == 'load') {
 	$lon = !empty($_POST['lon']) ? $_POST['lon'] : '';
 	
 	$nt = new namazTime($lat, $lon);
-	$data = $nt->getToday(); // За сегодня
+	$data = $nt->getToday();
 	
 	$result = '<table class="table table-bordered">
 		<tr>
-			<td colspan="2">' . $data['city'] . ' &nbsp;|&nbsp; ' . date('d-m-Y') . '</td>
+			<td colspan="2">' . $data['city'] . ' &nbsp;|&nbsp; ' . $data['date'] . '</td>
 		</tr>
 		<tr><td>Фаджр</td><td>' . $data['fajr'] . '</td></tr>
 		<tr><td>Восход</td><td>' . $data['sunrise'] . '</td></tr>
