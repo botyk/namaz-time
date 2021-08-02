@@ -1,9 +1,5 @@
 ## Время намаза (muftyat.kz)
 
-[https://namaz.muftyat.kz/kk/namaz/api/](https://namaz.muftyat.kz/kk/namaz/api/)
-
------------------------------------------
-
 ```php
 $lat = '43.238293'; // Широта
 $lon = '76.945465'; // Долгота
