@@ -39,8 +39,6 @@ class namazTime
 	
 	public $year;
 	
-	public $today;
-	
 	public function __construct($lat = false, $lon = false, $year = false)
 	{
 		$this->lat = $lat ? $lat : '43.238293';
@@ -52,7 +50,7 @@ class namazTime
 	{
 		$today = date('d-m-Y');
 		
-		$data = $this->getData();
+		$data = $this->getDataApi();
 		
 		$result = [];
 		
@@ -75,7 +73,7 @@ class namazTime
 	
 	public function getYear()
 	{
-		$data = $this->getData();
+		$data = $this->getDataApi();
 		
 		$result = [];
 		$i = 0;
@@ -96,7 +94,7 @@ class namazTime
 		return $result;
 	}
 	
-	private function getData()
+	private function getDataApi()
 	{
 		$url = 'http://namaz.muftyat.kz/api/times/' . $this->year . '/' . $this->lat . '/' . $this->lon;
 		
