@@ -6,7 +6,7 @@
 https://namaz.muftyat.kz/kk/namaz/api/
 
 Автор
-https://batas.kz/
+https://batas.kz/development
 
 -----------------------------------------
 
